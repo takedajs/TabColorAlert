@@ -1,0 +1,36 @@
+/* 角タブ化 */
+/*消してはだめ*/
+#tabbrowser-tabs,
+.tab-background-start[selected=true]:after,
+.tab-background-start[selected=true]:before,
+.tab-background-start,
+.tab-background-end,
+.tab-background-end[selected=true]:after,
+.tab-background-end[selected=true]:before {
+    background: transparent !important;
+}
+/*消しても特に変化なし*/
+/*.tab-background-start,*/
+/*.tab-background-end {*/
+    /*visibility: hidden !important;*/
+/*}*/
+/*ここを消すと中央だけグレーになる*/
+.tabs-newtab-button,
+.tab-background-middle {
+    background: none !important;
+}
+/*消しても特に変化なし*/
+/*.tab-background {*/
+    /*background: transparent !important;*/
+/*}*/
+
+/*!*タブの裏側の背景が赤くなる*!*/
+.tabbrowser-tab[selected] {
+    background-color: red !important;
+}
+
+.tabbrowser-tab[selected] .tab-text {
+    color: black !important;
+    /*font-weight: bold;*/
+}
+
