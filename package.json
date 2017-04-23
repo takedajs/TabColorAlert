@@ -1,10 +1,10 @@
 {
-  "title": "toolbar",
-  "name": "toolbar",
+  "title": "TabColor",
+  "name": "TabColor",
   "version": "0.0.1",
-  "description": "toolbar",
+  "description": "TabColor",
   "main": "index.js",
-  "author": "toolbar",
+  "author": "takedajs",
   "engines": {
     "firefox": ">=38.0a1",
     "fennec": ">=38.0a1"

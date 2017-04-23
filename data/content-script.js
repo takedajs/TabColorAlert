@@ -1,1 +1,0 @@
-document.body.innerHTML = "<h1>コンテンツスクリプトで置き換えたよ</h1>";
